@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/my-micro.iml" filepath="$PROJECT_DIR$/.idea/my-micro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../leanMicro/.idea/leanMicro.iml" filepath="$PROJECT_DIR$/../leanMicro/.idea/leanMicro.iml" />
     </modules>
   </component>
 </project>

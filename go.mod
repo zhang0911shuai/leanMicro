@@ -1,4 +1,4 @@
-module github.com/zhang0911/leanMicro
+module github.com/zhang0911shuai/leanMicro
 
 go 1.14
 
