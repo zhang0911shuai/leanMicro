@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"github.com/micro/go-micro/v2"
-	pb "github.com/zhang0911/leanMicro/proto/greeter"
+	pb "github.com/zhang0911shuai/leanMicro/proto/greeter"
 	"log"
 )
 
