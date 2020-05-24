@@ -1,4 +1,4 @@
-module my-micro
+module github.com/zhang0911/leanMicro
 
 go 1.14
 
@@ -19,7 +19,13 @@ replace (
 	google.golang.org/api => github.com/googleapis/google-api-go-client v0.21.0
 	google.golang.org/appengine => github.com/golang/appengine v1.6.5
 	google.golang.org/genproto => github.com/google/go-genproto v0.0.0-20200409111301-baae70f3302d
-	google.golang.org/grpc => github.com/grpc/grpc-go v1.28.1
+	google.golang.org/grpc => github.com/grpc/grpc-go v1.26.0
 )
 
-require github.com/micro/micro/v2 v2.7.1-0.20200522144230-b642c577d72a // indirect
+require (
+	github.com/golang/protobuf v1.4.2
+	github.com/micro/go-micro v1.18.0
+	github.com/micro/go-micro/v2 v2.7.1-0.20200520130338-6a661fd08cba
+	github.com/micro/micro/v2 v2.7.1-0.20200522144230-b642c577d72a // indirect
+	google.golang.org/grpc v1.29.1 // indirect
+)
